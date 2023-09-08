@@ -1,6 +1,6 @@
 [project]
 name = "datasette-debug-actors-from-ids"
-version = "0.1a0"
+version = "0.1a2"
 description = "Datasette plugin for trying out the actors_from_ids hook"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
