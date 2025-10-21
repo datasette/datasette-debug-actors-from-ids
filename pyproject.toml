@@ -1,6 +1,6 @@
 [project]
 name = "datasette-debug-actors-from-ids"
-version = "0.1a1"
+version = "0.1a2"
 description = "Datasette plugin for trying out the actors_from_ids hook"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
@@ -10,7 +10,7 @@ classifiers = [
     "Framework :: Datasette",
 ]
 dependencies = [
-    "datasette>=1.0a6"
+    "datasette==1.0a19"
 ]
 
 [project.urls]
