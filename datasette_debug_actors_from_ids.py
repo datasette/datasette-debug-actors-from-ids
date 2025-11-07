@@ -3,9 +3,9 @@ from datasette import hookimpl, Response
 
 async def debug_actors_from_ids(request, datasette):
     # Must have view-instance permission
-    await datasette.ensure_permissions(
-        request.actor,
-        ["view-instance"],
+    await datasette.ensure_permission(
+        action="view-instance",
+        actor=request.actor,
     )
     ids = (request.args.get("ids") or "").split(",")
     if not ids:
